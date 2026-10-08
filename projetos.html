@@ -4,88 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conheça os projetos sociais do Instituto Esperança.">
+    <meta name="description" content="Conheça os projetos sociais da ONG Mãos Unidas.">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="icon" href="/assets/images/favicon.ico" type="image/png">
     <title>ONG Mãos Unidas - Projetos</title>
 </head>
 
 <body>
     <header>
-        <nav aria-label="Menu principal">
-            <a href="index.html">Início</a>
-            <a href="projetos.html">Projetos</a>
-            <a href="cadastro.html">Cadastro</a>
-        </nav>
+        <div class="container">
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h1 id="titulo-principal">ONG Mãos Unidas</h1>
-            <p>
-                Conheça algumas das iniciativas desenvolvidas pela ONG Mãos Unidas.
-            </p>
-        </section>
-
-        <section>
-            <h2>Nossos projetos</h2>
-
-            <article>
-                <h3>Educação para Todos</h3>
-                <img src="assets/images/educacao.jpg" alt="Crianças participando de uma atividade educacional">
+        <div class="container">
+            <section>
+                <h1 id="titulo-principal">ONG Mãos Unidas</h1>
                 <p>
-                    Projeto voltado para oferecer apoio educacional,
-                    reforço escolar e atividades de aprendizagem.
+                    Conheça algumas das iniciativas desenvolvidas pela ONG Mãos Unidas.
                 </p>
+            </section>
 
-                <h4>Como participar</h4>
-                <p>
-                    Voluntários podem atuar como professores,
-                    monitores ou auxiliares nas atividades.
-                </p>
-            </article>
+            <section>
+                <h2>Nossos projetos</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Educação para Todos</h3>
+                        <img class="imagem-responsiva" src="assets/images/educacao.jpg" alt="Crianças participando de uma atividade educacional">
+                        <p>
+                            Projeto voltado para oferecer apoio educacional,
+                            reforço escolar e atividades de aprendizagem.
+                        </p>
 
-            <article>
-                <h3>Alimentando Esperança</h3>
-                <img src="assets/images/alimentos.jpg" alt="Voluntários organizando alimentos">
-                <p>
-                    Campanha destinada à arrecadação e distribuição
-                    de alimentos para famílias em situação de vulnerabilidade.
-                </p>
+                        <h4>Como participar</h4>
+                        <p>
+                            Voluntários podem atuar como professores,
+                            monitores ou auxiliares nas atividades.
+                        </p>
+                    </article>
 
-                <h4>Como ajudar</h4>
-                <p>
-                    Você pode contribuir realizando uma doação ou
-                    participando das ações como voluntário.
-                </p>
-            </article>
+                    <article class="card">
+                        <h3>Alimentando Esperança</h3>
+                        <img class="imagem-responsiva" src="assets/images/alimentos.jpg" alt="Voluntários organizando alimentos">
+                        <p>
+                            Campanha destinada à arrecadação e distribuição
+                            de alimentos para famílias em situação de vulnerabilidade.
+                        </p>
 
-            <article>
-                <h3>Doação</h3>
-                <p>
-                    As doações ajudam a manter nossos projetos e
-                    ampliar o número de pessoas atendidas.
-                </p>
+                        <h4>Como ajudar</h4>
+                        <p>
+                            Você pode contribuir realizando uma doação ou
+                            participando das ações como voluntário.
+                        </p>
+                    </article>
 
-                <h4>Como doar</h4>
-                <ul>
-                    <li>Doação financeira</li>
-                    <li>Doação de alimentos</li>
-                    <li>Doação de roupas</li>
-                    <li>Doação de materiais escolares</li>
-                </ul>
-            </article>
-        </section>
+                    <article class="card">
+                        <h3>Doação</h3>
+                        <p>
+                            As doações ajudam a manter nossos projetos e
+                            ampliar o número de pessoas atendidas.
+                        </p>
 
-        <section>
-            <h3>Seja um voluntário</h3>
-            <p>
-                Faça parte da nossa equipe e ajude a transformar vidas.
-            </p>
-            <a href="cadastro.html">Cadastre-se como voluntário</a>
-        </section>
+                        <h4>Como doar</h4>
+                        <ul>
+                            <li>Doação financeira</li>
+                            <li>Doação de alimentos</li>
+                            <li>Doação de roupas</li>
+                            <li>Doação de materiais escolares</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section>
+                <article class="card destaque">
+                    <h2>Seja um voluntário</h2>
+                    <p>
+                        Faça parte da nossa equipe e ajude a transformar vidas.
+                    </p>
+                    <a href="cadastro.html">Cadastre-se como voluntário</a>
+                </article>
+            </section>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 ONG Mãos Unidas. Todos os direitos reservados.</p>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 ONG Mãos Unidas. Todos os direitos reservados.</p>
+                <nav aria-label="Navegação do rodapé">
+                    <a href="index.html">Início</a>
+                    <a href="projetos.html">Projetos</a>
+                    <a href="cadastro.html">Cadastro</a>
+                </nav>
+            </div>
+        </div>
     </footer>
 </body>
+</html>
